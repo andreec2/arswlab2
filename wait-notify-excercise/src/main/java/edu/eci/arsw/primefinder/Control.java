@@ -30,7 +30,6 @@ Control extends Thread {
 
     private static final AtomicInteger primeCount = new AtomicInteger(0);
 
-
     private Control() {
         super();
         this.pft = new PrimeFinderThread[NTHREADS];
@@ -55,54 +54,45 @@ Control extends Thread {
 
         while (true) {
             try {
-                Thread.sleep(10000);
-                pausedThread();
-                int Totalprimos =  0;
-                for(PrimeFinderThread thread: pft){
-                    Totalprimos += thread.getPrimes().size();
+                Thread.sleep(TMILISECONDS);
+
+                pauseThreads();
+
+                // Mostrar número total de primos encontrados
+                int totalPrimos = 0;
+                for (PrimeFinderThread thread : pft) {
+                    totalPrimos += thread.getPrimes().size();
                 }
-                System.out.println("Total numero de primos =" + Totalprimos);
+                System.out.println("Número total de primos encontrados hasta ahora: " + totalPrimos);
+
+                // Esperar la entrada del usuario para reanudar
+                System.out.println("Presione ENTER para continuar...");
                 Scanner scanner = new Scanner(System.in);
-                String input = scanner.nextLine();
+                scanner.nextLine();
 
-                resumeThread();
-
-
+                resumeThreads();
 
             } catch (InterruptedException e) {
                 throw new RuntimeException(e);
             }
-
         }
     }
 
-    private static void pausedThread() {
+    private void pauseThreads() {
         synchronized (lock) {
             paused = true;
-            // Esperar a que todos los hilos se detengan
-            try {
-                lock.wait();
-            } catch (InterruptedException e) {
-                e.printStackTrace();
-            }
-            // Mostrar el número total de primos encontrados
-            System.out.println("Número total de primos encontrados: " + primeCount.get());
-            paused = false;
-            lock.notifyAll(); // Reanudar todos los hilos
-
-
+            lock.notifyAll(); // Despierta a los hilos para que se puedan pausar
         }
     }
 
-    private static void resumeThread() {
+    private void resumeThreads() {
         synchronized (lock) {
             paused = false;
             lock.notifyAll(); // Reanudar todos los hilos
         }
     }
-    public boolean getPaused(){
+
+    public static boolean isPaused() {
         return paused;
     }
-
-    
 }
