@@ -35,3 +35,12 @@ por ultimo se mostrara informacion importante del juego en tiempo real para cono
 ### Metodo para mostrar informacion importante cuando se pausa el juego 
 ![image](https://github.com/user-attachments/assets/2531f956-1e12-4e2b-83eb-3b95e58a2129)
 
+### Juego 
+![image](https://github.com/user-attachments/assets/b9f08e3f-9b8b-47ef-9d5d-e217ca6bfdbd)
+
+## Autores
+- **Juan Daniel Murcia Sánchez**
+- **Juan David Parroquiano Roldán**
+- **Andrés Felipe Montes Ortiz**
+
+
