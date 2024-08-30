@@ -4,9 +4,9 @@
 
 Este repositorio contiene el código y experimentos realizados para el Laboratorio No. 2 de la materia de Arquitecturas de Software del semestre 2024-2. El objetivo principal de este laboratorio es aprender y aplicar conceptos de programación concurrente y sincronización en Java. Vamos a enfocarnos en cómo controlar la ejecución de múltiples hilos, utilizando wait, notify, y notifyAll, para evitar problemas como condiciones de carrera y asegurar la consistencia de los datos.
 
-#Contenido
+###Contenido
 
-#Parte l  
+###Parte l  
 
 objetivo: implementar un mecanismo para detener los hilos despues de un tiempo especifico y esperar a que el usuario continue, por ultimo se buscara identificar problemas de concurrencia y se haran las mejoras necesarias para que el codigo sea mas eficiente 
 
