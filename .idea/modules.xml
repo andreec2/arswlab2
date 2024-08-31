@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/snake-race-thread-concurrency/Snake-race-thread.iml" filepath="$PROJECT_DIR$/snake-race-thread-concurrency/Snake-race-thread.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/arswlab2.iml" filepath="$PROJECT_DIR$/.idea/arswlab2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/wait-notify-excercise/snakegame.iml" filepath="$PROJECT_DIR$/wait-notify-excercise/snakegame.iml" />
+    </modules>
+  </component>
+</project>

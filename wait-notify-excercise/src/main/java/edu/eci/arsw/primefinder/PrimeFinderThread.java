@@ -25,7 +25,7 @@ public class PrimeFinderThread extends Thread {
             synchronized (monitor) {
                 while (paused) {
                     try {
-                        monitor.wait();  // Espera a ser notificado para reanudar
+                        monitor.wait(); // Espera a ser notificado para reanudar
                     } catch (InterruptedException e) {
                         e.printStackTrace();
                     }
@@ -34,7 +34,7 @@ public class PrimeFinderThread extends Thread {
 
             if (isPrime(i)) {
                 primes.add(i);
-                //System.out.println(i);
+                // System.out.println(i);
             }
 
         }
@@ -70,7 +70,7 @@ public class PrimeFinderThread extends Thread {
     public void resumeThread() {
         synchronized (monitor) {
             paused = false;
-            monitor.notifyAll();  // Notifica a todos los hilos esperando en monitor
+            monitor.notifyAll(); // Notifica a todos los hilos esperando en monitor
         }
     }
 

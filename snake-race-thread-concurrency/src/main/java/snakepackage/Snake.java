@@ -13,12 +13,12 @@ public class Snake extends Observable implements Runnable {
     private Cell head;
     private Cell newCell;
     private LinkedList<Cell> snakeBody = new LinkedList<Cell>();
-    //private Cell objective = null;
+    // private Cell objective = null;
     private Cell start = null;
 
     private boolean snakeEnd = false;
 
-    private int direction = Direction.NO_DIRECTION;
+    public int direction = Direction.NO_DIRECTION;
     private final int INIT_SIZE = 3;
 
     private boolean hasTurbo = false;
@@ -27,9 +27,7 @@ public class Snake extends Observable implements Runnable {
     private int growing = 0;
     public boolean goal = false;
 
-
     private boolean paused = false;
-
 
     public Snake(int idt, Cell head, int direction) {
         this.idt = idt;
@@ -44,7 +42,7 @@ public class Snake extends Observable implements Runnable {
 
     private void generateSnake(Cell head) {
         start = head;
-        //Board.gameboard[head.getX()][head.getY()].reserveCell(jumps, idt);
+        // Board.gameboard[head.getX()][head.getY()].reserveCell(jumps, idt);
         snakeBody.add(head);
         growing = INIT_SIZE - 1;
     }
@@ -53,7 +51,7 @@ public class Snake extends Observable implements Runnable {
     public void run() {
         while (!snakeEnd) {
             checkPaused(); // Check if the game is paused
-            
+
             snakeCalc();
 
             setChanged();
@@ -76,13 +74,24 @@ public class Snake extends Observable implements Runnable {
     private void snakeCalc() {
         head = snakeBody.peekFirst();
 
+        if (head == null) {
+            // Manejar el caso en que head es null
+            System.err.println("Error: La cabeza de la serpiente es null.");
+            return;
+        }
+
         newCell = head;
 
         newCell = changeDirection(newCell);
-        
+
+        if (newCell == null) {
+            // Manejar el caso en que newCell es null
+            System.err.println("Error: newCell es null.");
+            return;
+        }
+
         synchronized (Board.gameboard) {
             randomMovement(newCell);
-
             checkIfFood(newCell);
             checkIfJumpPad(newCell);
             checkIfTurboBoost(newCell);
@@ -100,20 +109,18 @@ public class Snake extends Observable implements Runnable {
         } else if (growing != 0) {
             growing--;
         }
-
     }
 
     private void checkIfBarrier(Cell newCell) {
         synchronized (Board.gameboard) {
             if (Board.gameboard[newCell.getX()][newCell.getY()].isBarrier()) {
-            // crash
-                
+                // crash
+
                 System.out.println("[" + idt + "] " + "CRASHED AGAINST BARRIER " + newCell.toString());
                 snakeEnd = true;
             }
         }
     }
-
 
     private Cell fixDirection(Cell newCell) {
 
@@ -196,7 +203,7 @@ public class Snake extends Observable implements Runnable {
 
         synchronized (Board.gameboard) {
             if (Board.gameboard[newCell.getX()][newCell.getY()].isFood()) {
-                 // eat food
+                // eat food
                 growing += 3;
                 int x = random.nextInt(GridSize.GRID_HEIGHT);
                 int y = random.nextInt(GridSize.GRID_WIDTH);
@@ -326,11 +333,13 @@ public class Snake extends Observable implements Runnable {
         }
     }
 
-    /*public void setObjective(Cell c) {
-        System.out.println("Setting objective - " + c.getX() + ":" + c.getY()
-                + " for Snake" + this.idt);
-        this.objective = c;
-    }*/
+    /*
+     * public void setObjective(Cell c) {
+     * System.out.println("Setting objective - " + c.getX() + ":" + c.getY()
+     * + " for Snake" + this.idt);
+     * this.objective = c;
+     * }
+     */
 
     public LinkedList<Cell> getBody() {
         return this.snakeBody;
@@ -365,6 +374,23 @@ public class Snake extends Observable implements Runnable {
                 e.printStackTrace();
             }
         }
+    }
+
+    public int getGrowing() {
+        return growing;
+    }
+
+    public void setGrowing(int growing) {
+        this.growing = growing;
+    }
+
+    // Métodos getter y setter para `direction`
+    public int getDirection() {
+        return direction;
+    }
+
+    public void setDirection(int direction) {
+        this.direction = direction;
     }
 
 }

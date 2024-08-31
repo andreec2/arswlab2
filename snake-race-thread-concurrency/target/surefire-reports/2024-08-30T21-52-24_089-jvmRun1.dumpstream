@@ -1,0 +1,377 @@
+# Created at 2024-08-30T21:53:07.044
+TestSet has not finished before stream error has appeared >> initializing exit by non-null configuration: null
+java.io.EOFException
+	at java.base/java.io.DataInputStream.readInt(DataInputStream.java:398)
+	at org.apache.maven.surefire.booter.MasterProcessCommand.decode(MasterProcessCommand.java:115)
+	at org.apache.maven.surefire.booter.CommandReader$CommandRunnable.run(CommandReader.java:391)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+
+
+# Created at 2024-08-30T21:53:07.967
+Unexpected IOException with stream: Error: newCell es null.
+
+
+# Created at 2024-08-30T21:53:08.481
+Unexpected IOException with stream: Error: newCell es null.
+
+
+# Created at 2024-08-30T21:53:08.984
+Unexpected IOException with stream: Error: newCell es null.
+
+
+# Created at 2024-08-30T21:53:09.494
+Unexpected IOException with stream: Error: newCell es null.
+
+
+# Created at 2024-08-30T21:53:10.005
+Unexpected IOException with stream: Error: newCell es null.
+
+
+# Created at 2024-08-30T21:53:10.519
+Unexpected IOException with stream: Error: newCell es null.
+
+
+# Created at 2024-08-30T21:53:11.034
+Unexpected IOException with stream: Error: newCell es null.
+
+
+# Created at 2024-08-30T21:53:11.536
+Unexpected IOException with stream: Error: newCell es null.
+
+
+# Created at 2024-08-30T21:53:12.038
+Unexpected IOException with stream: Error: newCell es null.
+
+
+# Created at 2024-08-30T21:53:12.554
+Unexpected IOException with stream: Error: newCell es null.
+
+
+# Created at 2024-08-30T21:53:13.058
+Unexpected IOException with stream: Error: newCell es null.
+
+
+# Created at 2024-08-30T21:53:13.568
+Unexpected IOException with stream: Error: newCell es null.
+
+
+# Created at 2024-08-30T21:53:14.083
+Unexpected IOException with stream: Error: newCell es null.
+
+
+# Created at 2024-08-30T21:53:14.599
+Unexpected IOException with stream: Error: newCell es null.
+
+
+# Created at 2024-08-30T21:53:15.100
+Unexpected IOException with stream: Error: newCell es null.
+
+
+# Created at 2024-08-30T21:53:15.615
+Unexpected IOException with stream: Error: newCell es null.
+
+
+# Created at 2024-08-30T21:53:16.119
+Unexpected IOException with stream: Error: newCell es null.
+
+
+# Created at 2024-08-30T21:53:16.636
+Unexpected IOException with stream: Error: newCell es null.
+
+
+# Created at 2024-08-30T21:53:17.151
+Unexpected IOException with stream: Error: newCell es null.
+
+
+# Created at 2024-08-30T21:53:17.652
+Unexpected IOException with stream: Error: newCell es null.
+
+
+# Created at 2024-08-30T21:53:18.156
+Unexpected IOException with stream: Error: newCell es null.
+
+
+# Created at 2024-08-30T21:53:18.657
+Unexpected IOException with stream: Error: newCell es null.
+
+
+# Created at 2024-08-30T21:53:19.169
+Unexpected IOException with stream: Error: newCell es null.
+
+
+# Created at 2024-08-30T21:53:19.683
+Unexpected IOException with stream: Error: newCell es null.
+
+
+# Created at 2024-08-30T21:53:20.199
+Unexpected IOException with stream: Error: newCell es null.
+
+
+# Created at 2024-08-30T21:53:20.713
+Unexpected IOException with stream: Error: newCell es null.
+
+
+# Created at 2024-08-30T21:53:21.229
+Unexpected IOException with stream: Error: newCell es null.
+
+
+# Created at 2024-08-30T21:53:21.744
+Unexpected IOException with stream: Error: newCell es null.
+
+
+# Created at 2024-08-30T21:53:22.260
+Unexpected IOException with stream: Error: newCell es null.
+
+
+# Created at 2024-08-30T21:53:22.773
+Unexpected IOException with stream: Error: newCell es null.
+
+
+# Created at 2024-08-30T21:53:23.275
+Unexpected IOException with stream: Error: newCell es null.
+
+
+# Created at 2024-08-30T21:53:23.787
+Unexpected IOException with stream: Error: newCell es null.
+
+
+# Created at 2024-08-30T21:53:24.299
+Unexpected IOException with stream: Error: newCell es null.
+
+
+# Created at 2024-08-30T21:53:24.814
+Unexpected IOException with stream: Error: newCell es null.
+
+
+# Created at 2024-08-30T21:53:25.326
+Unexpected IOException with stream: Error: newCell es null.
+
+
+# Created at 2024-08-30T21:53:25.827
+Unexpected IOException with stream: Error: newCell es null.
+
+
+# Created at 2024-08-30T21:53:26.342
+Unexpected IOException with stream: Error: newCell es null.
+
+
+# Created at 2024-08-30T21:53:26.857
+Unexpected IOException with stream: Error: newCell es null.
+
+
+# Created at 2024-08-30T21:53:27.370
+Unexpected IOException with stream: Error: newCell es null.
+
+
+# Created at 2024-08-30T21:53:27.882
+Unexpected IOException with stream: Error: newCell es null.
+
+
+# Created at 2024-08-30T21:53:28.394
+Unexpected IOException with stream: Error: newCell es null.
+
+
+# Created at 2024-08-30T21:53:28.896
+Unexpected IOException with stream: Error: newCell es null.
+
+
+# Created at 2024-08-30T21:53:29.405
+Unexpected IOException with stream: Error: newCell es null.
+
+
+# Created at 2024-08-30T21:53:29.916
+Unexpected IOException with stream: Error: newCell es null.
+
+
+# Created at 2024-08-30T21:53:30.428
+Unexpected IOException with stream: Error: newCell es null.
+
+
+# Created at 2024-08-30T21:53:30.941
+Unexpected IOException with stream: Error: newCell es null.
+
+
+# Created at 2024-08-30T21:53:31.445
+Unexpected IOException with stream: Error: newCell es null.
+
+
+# Created at 2024-08-30T21:53:31.956
+Unexpected IOException with stream: Error: newCell es null.
+
+
+# Created at 2024-08-30T21:53:32.470
+Unexpected IOException with stream: Error: newCell es null.
+
+
+# Created at 2024-08-30T21:53:32.986
+Unexpected IOException with stream: Error: newCell es null.
+
+
+# Created at 2024-08-30T21:53:33.501
+Unexpected IOException with stream: Error: newCell es null.
+
+
+# Created at 2024-08-30T21:53:34.004
+Unexpected IOException with stream: Error: newCell es null.
+
+
+# Created at 2024-08-30T21:53:34.508
+Unexpected IOException with stream: Error: newCell es null.
+
+
+# Created at 2024-08-30T21:53:35.020
+Unexpected IOException with stream: Error: newCell es null.
+
+
+# Created at 2024-08-30T21:53:35.533
+Unexpected IOException with stream: Error: newCell es null.
+
+
+# Created at 2024-08-30T21:53:36.046
+Unexpected IOException with stream: Error: newCell es null.
+
+
+# Created at 2024-08-30T21:53:36.556
+Unexpected IOException with stream: Error: newCell es null.
+
+
+# Created at 2024-08-30T21:53:37.068
+Unexpected IOException with stream: Error: newCell es null.
+
+
+# Created at 2024-08-30T21:53:37.580
+Unexpected IOException with stream: Error: newCell es null.
+
+
+# Created at 2024-08-30T21:53:38.087
+Unexpected IOException with stream: Error: newCell es null.
+
+
+# Created at 2024-08-30T21:53:38.597
+Unexpected IOException with stream: Error: newCell es null.
+
+
+# Created at 2024-08-30T21:53:39.109
+Unexpected IOException with stream: Error: newCell es null.
+
+
+# Created at 2024-08-30T21:53:39.624
+Unexpected IOException with stream: Error: newCell es null.
+
+
+# Created at 2024-08-30T21:53:40.133
+Unexpected IOException with stream: Error: newCell es null.
+
+
+# Created at 2024-08-30T21:53:40.647
+Unexpected IOException with stream: Error: newCell es null.
+
+
+# Created at 2024-08-30T21:53:41.159
+Unexpected IOException with stream: Error: newCell es null.
+
+
+# Created at 2024-08-30T21:53:41.671
+Unexpected IOException with stream: Error: newCell es null.
+
+
+# Created at 2024-08-30T21:53:42.186
+Unexpected IOException with stream: Error: newCell es null.
+
+
+# Created at 2024-08-30T21:53:42.701
+Unexpected IOException with stream: Error: newCell es null.
+
+
+# Created at 2024-08-30T21:53:43.216
+Unexpected IOException with stream: Error: newCell es null.
+
+
+# Created at 2024-08-30T21:53:43.727
+Unexpected IOException with stream: Error: newCell es null.
+
+
+# Created at 2024-08-30T21:53:44.231
+Unexpected IOException with stream: Error: newCell es null.
+
+
+# Created at 2024-08-30T21:53:44.743
+Unexpected IOException with stream: Error: newCell es null.
+
+
+# Created at 2024-08-30T21:53:45.255
+Unexpected IOException with stream: Error: newCell es null.
+
+
+# Created at 2024-08-30T21:53:45.764
+Unexpected IOException with stream: Error: newCell es null.
+
+
+# Created at 2024-08-30T21:53:46.276
+Unexpected IOException with stream: Error: newCell es null.
+
+
+# Created at 2024-08-30T21:53:46.785
+Unexpected IOException with stream: Error: newCell es null.
+
+
+# Created at 2024-08-30T21:53:47.292
+Unexpected IOException with stream: Error: newCell es null.
+
+
+# Created at 2024-08-30T21:53:47.800
+Unexpected IOException with stream: Error: newCell es null.
+
+
+# Created at 2024-08-30T21:53:48.310
+Unexpected IOException with stream: Error: newCell es null.
+
+
+# Created at 2024-08-30T21:53:48.812
+Unexpected IOException with stream: Error: newCell es null.
+
+
+# Created at 2024-08-30T21:53:49.313
+Unexpected IOException with stream: Error: newCell es null.
+
+
+# Created at 2024-08-30T21:53:49.823
+Unexpected IOException with stream: Error: newCell es null.
+
+
+# Created at 2024-08-30T21:53:50.326
+Unexpected IOException with stream: Error: newCell es null.
+
+
+# Created at 2024-08-30T21:53:50.841
+Unexpected IOException with stream: Error: newCell es null.
+
+
+# Created at 2024-08-30T21:53:51.348
+Unexpected IOException with stream: Error: newCell es null.
+
+
+# Created at 2024-08-30T21:53:51.859
+Unexpected IOException with stream: Error: newCell es null.
+
+
+# Created at 2024-08-30T21:53:52.371
+Unexpected IOException with stream: Error: newCell es null.
+
+
+# Created at 2024-08-30T21:53:52.883
+Unexpected IOException with stream: Error: newCell es null.
+
+
+# Created at 2024-08-30T21:53:53.395
+Unexpected IOException with stream: Error: newCell es null.
+
+
+# Created at 2024-08-30T21:53:53.905
+Unexpected IOException with stream: Error: newCell es null.
+
+
+# Created at 2024-08-30T21:53:54.415
+Unexpected IOException with stream: Error: newCell es null.
+
+
