@@ -1,5 +1,24 @@
 # lab02_ARSW
+# Estructura del proyecto.
+![image](https://github.com/user-attachments/assets/6d9efc5a-c604-4b54-b58c-8de00b06a31f)
 
+# Instrucciones para ejecutar el programa.
+
+Clonar el Repositorio: 
+Primero, clona el repositorio desde GitHub a tu máquina local. Abre una terminal y ejecuta el siguiente comando:
+
+  git clone https://github.com/andreec2/arswlab2.git
+  cd arswlab2
+
+Compilar el Proyecto: 
+Navega al directorio raíz del proyecto (donde se encuentra el archivo pom.xml) y ejecuta:
+
+  mvn clean install
+
+Ejecutar el Proyecto:
+
+  Navega hasta la clase "main" del paquete  "wait-notify-excersice" para poder ejecutar el primer punto, o a la clase "SnakeApp" del paquete "ssnae-race-thread-concurrency" para poder ejecutar el segundo    punto.
+---------------------------------
 # Laboratorio 2 - Arquitecturas de Software
 
 Este repositorio contiene el código y experimentos realizados para el Laboratorio No. 2 de la materia de Arquitecturas de Software del semestre 2024-2. El objetivo principal de este laboratorio es aprender y aplicar conceptos de programación concurrente y sincronización en Java. Vamos a enfocarnos en cómo controlar la ejecución de múltiples hilos, utilizando wait, notify, y notifyAll, para evitar problemas como condiciones de carrera y asegurar la consistencia de los datos.
@@ -17,6 +36,9 @@ objetivo: implementar un mecanismo para detener los hilos despues de un tiempo e
 
 ### Salida para 3000000 datos
 ![image](https://github.com/user-attachments/assets/bbd853c6-f1af-4dde-a4ec-8c85f614f65f)
+
+### PRUEBAS
+![image](https://github.com/user-attachments/assets/a6573e09-d37f-4f87-b14b-d24ae64569a5)
 
 # Parte ll 
 
@@ -37,6 +59,9 @@ por ultimo se mostrara informacion importante del juego en tiempo real para cono
 
 ### Juego 
 ![image](https://github.com/user-attachments/assets/b9f08e3f-9b8b-47ef-9d5d-e217ca6bfdbd)
+
+### PRUEBAS
+![Imagen de WhatsApp 2024-08-30 a las 22 11 48_dfe66553](https://github.com/user-attachments/assets/4a931bb7-7477-4377-b9a2-2f1c0fda61da)
 
 ## Autores
 - **Juan Daniel Murcia Sánchez**
