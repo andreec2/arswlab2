@@ -1,71 +1,7 @@
 # lab02_ARSW
 # Estructura del proyecto.
-├───snake-race-thread-concurrency
-│   ├───img
-│   ├───src
-│   │   ├───main
-│   │   │   ├───java
-│   │   │   │   ├───enums
-│   │   │   │   └───snakepackage
-│   │   │   └───resources
-│   │   │       └───Img
-│   │   └───test
-│   │       └───java
-│   │           └───edu
-│   │               └───eci
-│   │                   └───arsw
-│   └───target
-│       ├───classes
-│       │   ├───enums
-│       │   ├───Img
-│       │   └───snakepackage
-│       ├───generated-sources
-│       │   └───annotations
-│       ├───generated-test-sources
-│       │   └───test-annotations
-│       ├───maven-status
-│       │   └───maven-compiler-plugin
-│       │       ├───compile
-│       │       │   └───default-compile
-│       │       └───testCompile
-│       │           └───default-testCompile
-│       ├───surefire-reports
-│       └───test-classes
-│           └───edu
-│               └───eci
-│                   └───arsw
-└───wait-notify-excercise
-    ├───src
-    │   ├───main
-    │   │   └───java
-    │   │       └───edu
-    │   │           └───eci
-    │   │               └───arsw
-    │   │                   └───primefinder
-    │   └───test
-    │       └───java
-    │           └───edu
-    │               └───eci
-    │                   └───arsw
-    │                       └───primefinder
-    └───target
-        ├───classes
-        │   └───edu
-        │       └───eci
-        │           └───arsw
-        │               └───primefinder
-        ├───maven-archiver
-        ├───maven-status
-        │   └───maven-compiler-plugin
-        │       ├───compile
-        │       │   └───default-compile
-        │       └───testCompile
-        │           └───default-testCompile
-        └───test-classes
-            └───edu
-                └───eci
-                    └───arsw
-                        └───primefinder
+![image](https://github.com/user-attachments/assets/6d9efc5a-c604-4b54-b58c-8de00b06a31f)
+
 # Instrucciones para ejecutar el programa.
 
 Clonar el Repositorio: Primero, clona el repositorio desde GitHub a tu máquina local. Abre una terminal y ejecuta el siguiente comando:
