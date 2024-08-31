@@ -37,6 +37,9 @@ objetivo: implementar un mecanismo para detener los hilos despues de un tiempo e
 ### Salida para 3000000 datos
 ![image](https://github.com/user-attachments/assets/bbd853c6-f1af-4dde-a4ec-8c85f614f65f)
 
+### PRUEBAS
+![image](https://github.com/user-attachments/assets/a6573e09-d37f-4f87-b14b-d24ae64569a5)
+
 # Parte ll 
 
 Para la parte dos el objetivo principal es agregar la funcionalidad de iniciar, pausar y reanudar el juego 
@@ -56,6 +59,9 @@ por ultimo se mostrara informacion importante del juego en tiempo real para cono
 
 ### Juego 
 ![image](https://github.com/user-attachments/assets/b9f08e3f-9b8b-47ef-9d5d-e217ca6bfdbd)
+
+### PRUEBAS
+![Imagen de WhatsApp 2024-08-30 a las 22 11 48_dfe66553](https://github.com/user-attachments/assets/4a931bb7-7477-4377-b9a2-2f1c0fda61da)
 
 ## Autores
 - **Juan Daniel Murcia Sánchez**
